@@ -22,7 +22,7 @@ def pascal_triangle(n):
       triangle.append([1, 1])
       continue
     
-    sum_figs_list = tri[-1]
+    sum_figs_list = triangle[-1]
     for b in range(len(sum_figs_list) + 1):
       if b in [0, len(sum_figs_list)]:
         store_list.append(1)
