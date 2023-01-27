@@ -28,4 +28,4 @@ def pascal_triangle(n):
             store_list.append(sum_figs_list[b] + sum_figs_list[b - 1])
             triangle.append(store_list)
             store_list = []
-            return triangle
+    return triangle
