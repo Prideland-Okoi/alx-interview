@@ -18,4 +18,4 @@ Return True if all boxes can be opened, else return False
 ## Files
 |Name|Description|
 |----------|---------------|
-|`main-0.py, 0-lockboxes.py`|A script that Return True if all boxes can be opened, else return False|
+|`main_0.py, 0-lockboxes.py`|A script that Return True if all boxes can be opened, else return False|
