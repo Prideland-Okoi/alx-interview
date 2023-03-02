@@ -1,5 +1,5 @@
 # 0x05. N Queens
-<img src="https://en.m.wikipedia.org/wiki/File:Judit_Polg%C3%A1r_2013.jpg" width="600px"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/85/Judit_Polg%C3%A1r_2013.jpg" width="600px"/>
 
 ## Resources
 Read or watch
