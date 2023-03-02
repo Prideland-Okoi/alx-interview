@@ -1,5 +1,6 @@
 # 0x05. N Queens
 <img src="https://upload.wikimedia.org/wikipedia/commons/8/85/Judit_Polg%C3%A1r_2013.jpg" width="600px"/>
+Chess grandmaster [Judit Polgár](https://en.m.wikipedia.org/wiki/Judit_Polg%C3%A1r), the strongest female chess player of all time.
 
 ## Resources
 Read or watch
