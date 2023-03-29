@@ -11,15 +11,15 @@ def island_perimeter(grid):
     row = len(grid)
     col = len(grid[0]) if row else 0
 
-    for length in range(len(grid)):
-        for breadth in range(len(grid[length])):
+    for ln in range(len(grid)):
+        for br in range(len(grid[ln])):
 
-            islx = [(length - 1, breadth), (length, breadth - 1), (length, breadth + 1), (length + 1, breadth)]
+            isx = [(ln - 1, br), (ln, br - 1), (ln, br + 1), (ln + 1, br)]
             check = [1 if k[0] in range(row) and k[1] in range(col) else 0
-                     for k in islx]
+                     for k in isx]
 
-            if grid[length][breadth]:
+            if grid[ln][br]:
                 count += sum([1 if not r or not grid[k[0]][k[1]] else 0
-                              for r, k in zip(check, islx)])
+                              for r, k in zip(check, isx)])
 
     return (count)
